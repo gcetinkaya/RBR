@@ -1,14 +1,14 @@
 # RBR
 A simple Random Bit Regression implementation
 
-    This class implements a feature generator based on the paper:
-      Random Bits Regression: a Strong General Predictor for Big Data
-      Yi Wang, Yi Li, Momiao Xiong, Li Jin
-      http://arxiv.org/abs/1501.02990
+This class implements a feature generator based on the paper:
+  Random Bits Regression: a Strong General Predictor for Big Data
+  Yi Wang, Yi Li, Momiao Xiong, Li Jin
+  http://arxiv.org/abs/1501.02990
 
-    The class persists feature schema that can later be used to apply the process to test data.
+The class persists feature schema that can later be used to apply the process to test data.
 
-    Usage:
+Usage:
 
     # get n random bir features:
     rbr = RBR(train)
